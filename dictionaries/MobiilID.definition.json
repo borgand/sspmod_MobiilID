@@ -1,0 +1,47 @@
+{
+  "mobile_no":{
+    "en": "Mobile number"
+  },
+  "enter": {
+    "en": "Enter"
+  },
+  "refresh": {
+    "en": "Refresh"
+  },
+  "auth_progress_intro":{
+    "en": "Mobiil-ID sent authentication request along with verification code to your mobile."
+  },
+  "verification_code":{
+    "en": "Verification code"
+  },
+  "auth_progress_instruction":{
+    "en": "Verify that the code on the mobile screen matches the one visible here and then enter your Mobiil-ID PIN1 into the phone."
+  },
+  "auth_failure":{
+    "en": "Authentication failed"
+  },
+  "mid_not_ready": {
+    "en": "Mobiil-ID functionality is not yet ready. Please try again later."
+  },
+  "mid_user_cancel": {
+    "en": "You canceled Mobiil-ID authentication."
+  },
+  "mid_phone_absent": {
+    "en": "The phone is out of coverage area."
+  },
+  "mid_unknown_error": {
+    "en": "Unknown error. Please try again later."
+  },
+  "mid_no_certificate":{
+    "en": "User certificate missing!"
+  },
+  "mid_not_registered":{
+    "en": "Given phone number is not registered for the service!"
+  },
+  "mid_cert_revoked":{
+    "en": "Mobiil-ID certificates have been revoked!"
+  },
+  "mid_not_activated":{
+    "en": "Mobiil-ID has not been activated. To activate Mobiil-ID visit <a href=\"http://mobiil.id.ee/\">mobiil.id.ee</a>."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "mobile_no":{
+    "et": "Mobiilinumber",
+    "ru": "Номер мобильного телефона",
+    "fi": "Puhelinnumeronne"
+  },
+  "enter": {
+    "et": "Sisene",
+    "ru": "Вход",
+    "fi": "Kirjaudu"
+  },
+  "refresh": {
+    "et": "Värskenda",
+    "ru": "Перезагрузка",
+    "fi": "Päivitys"
+  },
+  "auth_progress_intro":{
+    "et": "Mobiil-ID saatis autentimispäringu koos kontrollkoodiga sinu telefonile.",
+    "ru": "Через некоторoе время в вашем телефоне начнется процедура авторизации.",
+    "fi": "Mobiil-ID lähetti varmennuspyynnön ja tarkistuskoodin puhelimeenne"
+  },
+  "verification_code":{
+    "et": "Kontrollkood",
+    "ru": "Контрольный код",
+    "fi": "Tarkistuskoodi"
+  },
+  "auth_progress_instruction":{
+    "et": "Veendu, et telefonis nähtav kontrollkood ühtib ekraanilolevaga ning sisesta seejärel telefonis Mobiil-ID PIN1.",
+    "ru": "Пожалуйста проверьте, что Вы видите тот же самый контрольный код на экране Вашего мобильного телефона. Введите Mobiil-ID PIN 1 код.",
+    "fi": "Tarkistakaa, että puhelimeen saamassanne viestissä on sama tarkistuskoodi. Syöttäkää Mobiil-ID koodi PIN1."
+  },
+  "auth_failure":{
+    "et": "Autentimisprotseduur ebaõnnestus",
+    "ru": "Процедура авторизации не удалась",
+    "fi": "Tunnistautumisessa tapahtui virhe"
+  },
+  "mid_not_ready": {
+    "et": "Mobiil-ID funktsionaalsus ei ole veel valmis. Palun proovige varsti uuesti.",
+    "ru": "Mobiil-ID функциональность еще не готова. Пожалуйста, повторите попытку позже.",
+    "fi": "Mobiil-ID ei toimi vielä. Yrittäkää myöhemmin uudelleen."
+  },
+  "mid_user_cancel": {
+    "et": "Katkestasite Mobiil-ID autentimise.",
+    "ru": "Авторизация прервана пользователем",
+    "fi": "Olette peruttaneet todentamisen."
+  },
+  "mid_phone_absent": {
+    "et": "Telefon on levist väljas.",
+    "ru": "Телефон находится вне зоны действя.",
+    "fi": "Puhelimeen ei saada yhteyttä."
+  },
+  "mid_unknown_error": {
+    "et": "Tundmatu viga; Proovi hiljem uuesti.",
+    "ru": "Неизвестная ошибка. Пожалуйста, повторите попытку позже.",
+    "fi": "Tuntematon virhe. Yrittäkää myöhemmin uudelleen."
+  },
+  "mid_no_certificate":{
+    "et": "Kasutaja sertifikaat puudub!",
+    "ru": "Сертификат пользователя отсутствует!",
+    "fi": "Kysyjän varmenne puuttuu!"
+  },
+  "mid_not_registered":{
+    "et": "Antud telefoninumbril puudub Mobiil-ID leping!",
+    "ru": "Этот мобильный номер не зарегистрирован для использования Mobiil-ID!",
+    "fi": "Mobiil-ID liitymäänne ei ole rekisteröity!"
+  },
+  "mid_cert_revoked":{
+    "et": "Mobiil-ID sertifikaadid on kehtetud!",
+    "ru": "Mobiil-ID сертификаты отменены!",
+    "fi": "Mobiil-ID varmenteet eivät ole voimassa!"
+  },
+  "mid_not_activated":{
+    "et": "Mobiil-ID on aktiveerimata. Mobiil-ID aktiveerimiseks pöörduge aadressile <a href=\"http://mobiil.id.ee/\">mobiil.id.ee</a>.",
+    "ru": "Mobiil-ID не активирована. Для активации Mobiil-ID посетите этот адрес <a href=\"http://mobiil.id.ee/\">mobiil.id.ee</a>.",
+    "fi": "Mobiil-ID ei ole aktivoitu. Aktivoikaa Mobiil-ID osoitteessa <a  href=\"http:://mobiil.id.ee/\">mobiil.id.ee</a>."
+  }
+}
