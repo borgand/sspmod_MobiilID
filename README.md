@@ -86,6 +86,6 @@ It is based on the demo auth application published by AS Sertifitseerimiskeskus:
 Authors & Contributors
 ======================
 
-This module was at [University of Tartu](http://www.ut.ee/en) by:
+This module was developed at [University of Tartu](http://www.ut.ee/en) by:
 
  * Laas Toom
