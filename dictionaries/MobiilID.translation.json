@@ -1,8 +1,8 @@
 {
   "mobile_no":{
-    "et": "Mobiilinumber",
-    "ru": "Номер мобильного телефона",
-    "fi": "Puhelinnumeronne"
+    "et": "Mobiilinumber (5xxxxxx)",
+    "ru": "Номер телефона (5xxxxxx)",
+    "fi": "Puhelinnumeronne (5xxxxxx)"
   },
   "enter": {
     "et": "Sisene",
