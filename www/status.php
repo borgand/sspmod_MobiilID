@@ -37,6 +37,7 @@ if ($midStatus['stage'] == 'progress'){
 
 $t->data['authstate'] = $authStateId;
 $t->data['midStatus'] = $midStatus;
+$t->data['midNumber'] = $state[sspmod_MobiilID_Auth_Source_MobiilID::MID_NUMBER];
 $t->show();
 exit();
 

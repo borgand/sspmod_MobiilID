@@ -36,6 +36,7 @@ $globalConfig = SimpleSAML_Configuration::getInstance();
 $t = new SimpleSAML_XHTML_Template($globalConfig, 'MobiilID:login.php');
 $t->data['authstate'] = $authStateId;
 $t->data['midStatus'] = $midStatus;
+$t->data['midNumber'] = $state[sspmod_MobiilID_Auth_Source_MobiilID::MID_NUMBER];
 $t->show();
 exit();
 

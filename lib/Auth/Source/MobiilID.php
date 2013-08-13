@@ -44,6 +44,11 @@ class sspmod_MobiilID_Auth_Source_MobiilID extends SimpleSAML_Auth_Source {
   const MID_CHALLENGE = 'sspmod_MobiilID_Auth_Source_MobiilID.MidChallenge';
 
   /**
+   * The key to mobile number in auth state
+   */
+  const MID_NUMBER = 'sspmod_MobiilID_Auth_Source_MobiilID.MidNumber';
+
+  /**
    * The key to user certificate data
    */
   const MID_CERT_DATA = 'sspmod_MobiilID_Auth_Source_MobiilID.MidCertData';
@@ -163,6 +168,9 @@ class sspmod_MobiilID_Auth_Source_MobiilID extends SimpleSAML_Auth_Source {
   public function startMidAuth($midnumber, &$state) {
     assert('is_string($midnumber)');
     assert('is_array($state)');
+
+    // save unchanged midnumber so users won't be confused with automatically changing numbers
+    $state[self::MID_NUMBER] = $midnumber;
 
     if (substr($midnumber,0,2)!="37") {
       $midnumber = "372".$midnumber;
